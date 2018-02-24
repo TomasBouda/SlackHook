@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Tomáš Bouda</Authors>
+    <Company>TomLabs</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>Slack, webhook, helper, SlackClient, Post, Message</PackageTags>
+    <RepositoryType>GitHub</RepositoryType>
+    <Description>Simple library for sending messages into Slack channels using Webhook.</Description>
+    <PackageLicenseUrl>https://github.com/TomasBouda/SlackHook/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/TomasBouda/SlackHook</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TomasBouda/SlackHook</RepositoryUrl>
+    <Copyright>Tomáš Bouda</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
