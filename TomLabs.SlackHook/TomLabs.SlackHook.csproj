@@ -6,12 +6,14 @@
     <Company>TomLabs</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>Slack, webhook, helper, SlackClient, Post, Message</PackageTags>
-    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryType>Git</RepositoryType>
     <Description>Simple library for sending messages into Slack channels using Webhook.</Description>
     <PackageLicenseUrl>https://github.com/TomasBouda/SlackHook/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/TomasBouda/SlackHook</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TomasBouda/SlackHook</RepositoryUrl>
     <Copyright>Tomáš Bouda</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageIconUrl>https://raw.githubusercontent.com/TomasBouda/SlackHook/master/icon.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
