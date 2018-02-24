@@ -15,7 +15,7 @@ Install-Package TomLabs.SlackHook -Version 1.0.0
 using TomLabs.SlackHook;
 
 var client = new SlackClient("https://hooks.slack.com/services/XXXXXXXXX/XXXXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxx");
-bool result = await client.PostMessage("<https://api.slack.com/incoming-webhooks|See more info> and message text", "Info", "general", ":thumbsup:");
+bool result = client.PostMessage("<https://api.slack.com/incoming-webhooks|See more info> and message text", "Info", "general", ":thumbsup:");
 ```
 
 **Asynchronous call**
